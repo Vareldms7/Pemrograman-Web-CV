@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.cv {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Header: teks di kiri, foto di kanan atas */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 3px solid #2c3e50;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0 0 5px;
+  font-size: 28px;
+  color: #2c3e50;
+}
+
+.header p {
+  margin: 3px 0;
+  font-size: 14px;
+}
+
+.foto {
+  width: 120px;
+  height: 150px;
+  object-fit: cover;
+  border: 3px solid #2c3e50;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #2c3e50;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+  margin: 25px 0 10px;
+}
+
+ul {
+  margin: 5px 0;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+p.teks {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+
+.item p {
+  margin: 3px 0;
+  font-size: 14px;
+}
+
+.item-berikutnya {
+  margin-top: 12px;
+}
+
+table.data td {
+  font-size: 14px;
+  padding: 3px 0;
+  vertical-align: top;
+}
+
+table.data td:first-child {
+  width: 80px;
+}
+
+table.data td:nth-child(2) {
+  width: 15px;
+}
+
+@media (max-width: 500px) {
+  .cv {
+    padding: 20px;
+  }
+  .foto {
+    width: 90px;
+    height: 115px;
+  }
+}
