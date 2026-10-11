@@ -1,2 +1,2 @@
 # CV Saya
-(preview-cv.jpg)
+![Preview CV](preview-cv.jpg)
